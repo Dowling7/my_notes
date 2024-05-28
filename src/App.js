@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+
+import Algorithm from "./pages/Algorithm";
+import Physics from "./pages/Physics";
+import MachineLearning from "./pages/MachineLearning";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/algorithm" element={<Algorithm />} />
+          <Route path="/physics" element={<Physics />} />
+          <Route path="/machine-learning" element={<MachineLearning />} />
+          <Route path="/" element={<div>Welcome to the Academic Page</div>} />
+        </Routes>
+      </Layout>
+    </Router>
   );
 }
 
