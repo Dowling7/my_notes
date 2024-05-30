@@ -34,35 +34,38 @@ function Reference() {
         <h2>Data Science, Statistics and Machine Learning</h2>
         <ul>
           <li>
-            <Link to="https://changkun.de/modern-cpp/zh-cn/01-intro/"><strong>Machine Learning in Physics:</strong> </Link> UCSD PHYS 139/239, By Javier Duart.
+            <Link to="https://jduarte.physics.ucsd.edu/phys139_239/README.html"><strong>Machine Learning in Physics:</strong> </Link> UCSD PHYS 139/239, By Javier Duart.
           </li>
           <li>
             <Link to="https://theoryandpractice.org/stats-ds-book/intro.html"><strong>Statistics and Data Science:</strong> </Link> NYU Physics titled Statistics and Data Science. Interactive Jupyter book.
           </li>
           <li>
-            <Link to="https://github.com/mit-physics-data/lectures"><strong>8.316 Data Science in Physics:</strong> </Link> Official Python documentation on coroutines and threads.
+            <Link to="https://github.com/mit-physics-data/lectures"><strong>8.316 Data Science in Physics:</strong> </Link> @MIT, by Phil Harris.
           </li>
           <li>
-            <Link to="https://www.nbi.dk/~koskinen/Teaching/AdvancedMethodsInAppliedStatistics2018/AdvancedMethodsAppliedStatistics2018.html"><strong>Advanced Methods in Applied Statistics 2018
+            <Link to="https://jduarte.physics.ucsd.edu/capstone-particle-physics-domain/README.html"><strong>Particle Physics and Machine Learning:</strong> </Link> Developed by Javier Duarte,  Frank Würthwein.
+          </li>
+          <li style={{ marginBottom: "10px"}}>
+            <Link to="https://jduarte.physics.ucsd.edu/iaifi-summer-school/intro.html"><strong>IAIFI Summer School Tutorials</strong> </Link> Model compression, ML in particle physics. By Javier Duart, Dylan Rankins, Patrick McCormack.
+          </li>
+          <li>
+            <Link to="https://www.nbi.dk/~koskinen/Teaching/AdvancedMethodsInAppliedStatistics2018/AdvancedMethodsAppliedStatistics2018.html"><strong>Advanced Methods in Applied Statistics 2018:
 </strong> </Link> BDTs, MultiNest bayesian, Markov Chain Monte Carlo, Likelihood.
           </li>
           <li>
-            <Link to="https://jduarte.physics.ucsd.edu/iaifi-summer-school/intro.html"><strong>IAIFI Summer School Tutorials</strong> </Link> Model compression, ML in particle physics. By Javier Duart, Dylan Rankins, Patrick McCormack
+            <Link to="https://github.com/jeffheaton/t81_558_deep_learning"><strong>Keras-Applications of Deep Neural Networks @WUSTL:</strong> </Link> React, flask, and WebAssembly.
           </li>
           <li>
-            <Link to="https://github.com/jeffheaton/t81_558_deep_learning"><strong>T81-558: Keras - Applications of Deep Neural Networks @WUSTL</strong> </Link> React, flask, and WebAssembly.
+            <Link to="https://guangzhengli.com/blog/zh/vector-database/"><strong>Vector Database:</strong> </Link> Vector store, similarity search/measurement, filtering.
           </li>
           <li>
-            <Link to="https://guangzhengli.com/blog/zh/vector-database/"><strong>Vector Database</strong> </Link> Automatic Python-C++ bindings.
+            <Link to="https://github.com/pgvector/pgvector"><strong>PGVector:</strong> </Link> Open-source vector similarity search for Postgres.
           </li>
           <li>
-            <Link to="https://github.com/pgvector/pgvector"><strong>PGVector</strong> </Link> Open-source vector similarity search for Postgres
+            <Link to="https://github.com/Denis2054/Transformers-for-NLP-and-Computer-Vision-3rd-Edition"><strong>Transformers for Natural Language Processing and Computer Vision</strong> </Link> Take Generative AI and LLMs to the next level with Hugging Face, Google Vertex AI, ChatGPT, GPT-4V, and DALL-E 3 3rd Edition
           </li>
           <li>
-            <Link to="https://guangzhengli.com/blog/zh/vector-database/"><strong>Vector Database</strong> </Link> Automatic Python-C++ bindings.
-          </li>
-          <li>
-            <Link to="https://github.com/MalayAgr/generative-ai-with-llms-notes?tab=readme-ov-file"><strong>Generative AI with LLM, Notes</strong> </Link> Automatic Python-C++ bindings.
+            <Link to="https://github.com/MalayAgr/generative-ai-with-llms-notes?tab=readme-ov-file"><strong>Generative AI with LLM, Notes</strong> </Link> Notes for the course Generative AI With Large Language Models.
           </li>
         </ul>
       </main>
