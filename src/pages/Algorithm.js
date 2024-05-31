@@ -9,7 +9,7 @@ function Algorithm() {
   return (
     <main>
       <hr />
-      <h2>Kmeans implementation at SKlearn</h2>
+      <h2>Kmeans by SKlearn</h2>
       <BlockMath math="c = \\pm\\sqrt{a^2 + b^2}" />
       <SyntaxHighlighter language="python">
         {`import numpy as np
@@ -21,7 +21,7 @@ function Algorithm() {
           `}
       </SyntaxHighlighter>
       <hr />
-      <h2>Silicon Modules at CMS</h2>
+      <h2>Gradient descent</h2>
       <hr />
       <h2>DarkQuest</h2>
       <SyntaxHighlighter language="cpp">
@@ -32,6 +32,9 @@ function Algorithm() {
           }
           `}
       </SyntaxHighlighter>
+      <hr />
+      <h2>Support Vector Machine by SKlearn</h2>
+      <hr />
     </main>
   );
 }
