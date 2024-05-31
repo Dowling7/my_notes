@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my_notes/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/my_notes/static/js/main.a9d5656f.chunk.js",
+    "main.js.map": "/my_notes/static/js/main.a9d5656f.chunk.js.map",
+    "runtime~main.js": "/my_notes/static/js/runtime~main.670801df.js",
+    "runtime~main.js.map": "/my_notes/static/js/runtime~main.670801df.js.map",
+    "static/css/2.920de68e.chunk.css": "/my_notes/static/css/2.920de68e.chunk.css",
+    "static/js/2.c059a283.chunk.js": "/my_notes/static/js/2.c059a283.chunk.js",
+    "static/js/2.c059a283.chunk.js.map": "/my_notes/static/js/2.c059a283.chunk.js.map",
+    "static/js/3.c882ebee.chunk.js": "/my_notes/static/js/3.c882ebee.chunk.js",
+    "static/js/3.c882ebee.chunk.js.map": "/my_notes/static/js/3.c882ebee.chunk.js.map",
+    "index.html": "/my_notes/index.html",
+    "precache-manifest.f7d483b796fb15d1bf4924f08c9ca161.js": "/my_notes/precache-manifest.f7d483b796fb15d1bf4924f08c9ca161.js",
+    "service-worker.js": "/my_notes/service-worker.js",
+    "static/css/2.920de68e.chunk.css.map": "/my_notes/static/css/2.920de68e.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/my_notes/static/css/main.5ecd60fb.chunk.css.map",
+    "static/media/katex.min.css": "/my_notes/static/media/KaTeX_Typewriter-Regular.b8b8393d.woff2"
+  }
+}
