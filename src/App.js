@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 
-import Algorithm from "./pages/Algorithm";
-import Physics from "./pages/Physics";
-import MachineLearning from "./pages/MachineLearning";
-import Coding from "./pages/Coding"
-import Reference from "./pages/Reference"
-import Research from "./pages/Research"
+import Algorithm from "./sections/Algorithm";
+import Physics from "./sections/Physics";
+import MachineLearning from "./sections/MachineLearning";
+import Coding from "./sections/Coding"
+import Reference from "./sections/Reference"
+import Research from "./sections/Research"
 
 function App() {
   return (
