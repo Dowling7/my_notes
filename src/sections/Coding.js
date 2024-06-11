@@ -1,5 +1,9 @@
 import React from "react";
 import Layout from "../Layout";
+import 'katex/dist/katex.min.css';
+import { InlineMath, BlockMath } from 'react-katex';
+import 'prismjs/themes/prism-okaidia.css';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
 function Coding() {
   return (
@@ -18,7 +22,8 @@ function Coding() {
 
       <BlockMath math="f(x) = x^{2} + 2x + 1" />
       <SyntaxHighlighter language="python">
-      {`import asyncio
+      {`
+      import asyncio
       import threading
       def start_async_loop(loop):
       asyncio.set_event_loop(loop)
