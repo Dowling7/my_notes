@@ -11,14 +11,14 @@ function Monte_Carlo() {
             <li><b>Random Sampling:</b> Generate a large number of independent and identically distributed (i.i.d.) samples X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> from the probability distribution P.</li>
             <li><b>Function Evaluation:</b> Evaluate the function of interest f(X) for each sample to obtain f(X<sub>1</sub>), f(X<sub>2</sub>), ..., f(X<sub>n</sub>).</li>
             <li><b>Averaging:</b> Compute the average of the function values to estimate the expected value E[f(X)]:
-            <div style="text-align: center;">
+            <div>
                 E[f(X)] = (1/n) &sum;<sub>i=1</sub><sup>n</sup> f(X<sub>i</sub>)
             </div></li>
         </ol>
 
         <b>Example: Estimating an Integral</b>
         Monte Carlo methods are often used to estimate the value of integrals, especially in higher dimensions. Consider the integral of a function f(x) over a domain D:
-        <div style="text-align: center;">
+        <div >
             I = &int;<sub>D</sub> f(x) dx
         </div>
         The Monte Carlo estimate of this integral is obtained as follows:
@@ -26,7 +26,7 @@ function Monte_Carlo() {
             <li><b>Uniform Sampling:</b> Generate n random samples X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>n</sub> uniformly distributed over the domain D.</li>
             <li><b>Function Evaluation:</b> Evaluate the function f at each sample point X<sub>i</sub>.</li>
             <li><b>Estimate the Integral:</b>
-            <div style="text-align: center;">
+            <div >
                 &hat;I = (Volume of D / n) &sum;<sub>i=1</sub><sup>n</sup> f(X<sub>i</sub>)
             </div></li>
         </ol>
@@ -34,7 +34,7 @@ function Monte_Carlo() {
 
         <b>Convergence and Error</b>
         The law of large numbers ensures that the Monte Carlo estimate converges to the true expected value or integral as the number of samples n increases:
-        <div style="text-align: center;">
+        <div >
             &hat;E[f(X)] &rarr; E[f(X)] as n &rarr; &infin;
         </div>
         The central limit theorem provides a measure of the error in the Monte Carlo estimate, indicating that the error decreases as O(1/&radic;n). This means that the standard deviation of the estimate decreases with the square root of the number of samples.

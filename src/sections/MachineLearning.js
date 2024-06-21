@@ -3,6 +3,10 @@ import Layout from "../Layout";
 import { Link } from 'react-router-dom';
 
 
+import DAQ from "../subsections/MachineLearning/DAQ"
+import VectorDatabase from "../subsections/MachineLearning/VectorDatabase"
+
+
 function MachineLearning() {
   return (
     
@@ -56,6 +60,18 @@ function MachineLearning() {
         <ul>
           <li>
             <Link to="https://changkun.de/modern-cpp/zh-cn/01-intro/"><strong>Modern C++:</strong> </Link> Comprehansive introduction for C++.
+          </li>
+        </ul>
+        <h2>Data Acquision</h2>
+        <ul>
+          <li>
+          <Link to="/DAQ" style={{ marginRight: "10px" }}><strong>DAQ</strong> </Link> Comprehansive introduction for C++.
+          </li>
+        </ul>
+        <h2>VectorDatabase</h2>
+        <ul>
+          <li>
+          <Link to="/VectorDatabase" style={{ marginRight: "10px" }}><strong>Vector Database</strong> </Link> Comprehansive introduction for C++.
           </li>
         </ul>
         

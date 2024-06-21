@@ -1,8 +1,7 @@
 import React from "react";
 import Layout, { InlineMath, BlockMath, SyntaxHighlighter } from "../../Layout";
 
-const content = () => {
-  const codeString = `
+const codeString = `
 class PID:
     def __init__(self, Kp, Ki, Kd, setpoint):
         self.Kp = Kp
@@ -53,8 +52,12 @@ for i in range(100):
     time.sleep(dt)
   `;
 
+  
+
+
+function PID() {
   return (
-    <Layout>
+    <main>
       <h2>PID Control Explanation</h2>
       <h3>Proportional-Integral-Derivative Control</h3>
       <p>
@@ -94,15 +97,12 @@ for i in range(100):
         <li><InlineMath math="K_d" /> is the derivative gain.</li>
       </ul>
       <h3>Python Implementation</h3>
-      <SyntaxHighlighter language="python" style={okaidia}>
+      <SyntaxHighlighter language="python" >
         {codeString}
       </SyntaxHighlighter>
-    </Layout>
+    </main>
   );
-};
-
-function PID() {
-  return content;
+  ;
 }
 
 export default PID;
