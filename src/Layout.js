@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import 'katex/dist/katex.min.css';
+import { InlineMath, BlockMath } from 'react-katex';
+import 'prismjs/themes/prism-okaidia.css';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
 const Layout = ({ children }) => {
   return (
@@ -26,4 +30,5 @@ const Layout = ({ children }) => {
   );
 };
 
+export { InlineMath, BlockMath, SyntaxHighlighter };
 export default Layout;

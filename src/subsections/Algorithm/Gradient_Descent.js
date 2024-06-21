@@ -1,9 +1,5 @@
 import React from "react";
-import Layout from "../Layout";
-import 'katex/dist/katex.min.css';
-import { InlineMath, BlockMath } from 'react-katex';
-import 'prismjs/themes/prism-okaidia.css';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import Layout, { InlineMath, BlockMath, SyntaxHighlighter } from "../../Layout";
 
 function Algorithm() {
   return (

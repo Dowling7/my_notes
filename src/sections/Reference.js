@@ -69,9 +69,7 @@ function Reference() {
           </li>
         </ul>
       </main>
-      <footer style={{ marginTop: "20px" }}>
-        <p>© 2024 Dowling Wong. All rights reserved.</p>
-      </footer>
+      
     </div>
     
   );

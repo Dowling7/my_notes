@@ -9,6 +9,7 @@ import Coding from "./sections/Coding"
 import Reference from "./sections/Reference"
 import Research from "./sections/Research"
 
+
 function App() {
   return (
     <Router>
@@ -20,7 +21,7 @@ function App() {
           <Route path="/machine-learning" element={<MachineLearning />} />
           <Route path="/coding" element={<Coding />} />
           <Route path="/reference" element={<Reference />} />
-          <Route path="/" element={<div>Welcome to the Academic Page</div>} />
+          <Route path="/" element={<div>Welcome to the Academic Notes</div>} />
         </Routes>
       </Layout>
     </Router>
