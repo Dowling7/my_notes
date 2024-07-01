@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout, { InlineMath, BlockMath, SyntaxHighlighter } from '../../Layout';
 
-const MyPage: React.FC = () => {
+const MarkovChain: React.FC = () => {
   return (
     <Layout>
       <div>
@@ -91,4 +91,4 @@ print(samples[:10])  # Print first 10 samples
   );
 };
 
-export default MyPage;
+export default MarkovChain;
