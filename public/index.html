@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Library Home Page</h1>
+    </header>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Dowling's academic notes</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <main>
+        <section class="category">
+            <h2>Fiction</h2>
+            <ul>
+                <li><a href="books/the-great-gatsby.html">The Great Gatsby by F. Scott Fitzgerald</a></li>
+                <li><a href="books/to-kill-a-mockingbird.html">To Kill a Mockingbird by Harper Lee</a></li>
+                <li><a href="books/1984.html">1984 by George Orwell</a></li>
+            </ul>
+        </section>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <hr class="separator">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        <section class="category">
+            <h2>Non-Fiction</h2>
+            <ul>
+                <li><a href="books/sapiens.html">Sapiens by Yuval Noah Harari</a></li>
+                <li><a href="books/educated.html">Educated by Tara Westover</a></li>
+                <li><a href="books/the-immortal-life.html">The Immortal Life of Henrietta Lacks by Rebecca Skloot</a></li>
+            </ul>
+        </section>
+
+        <hr class="separator">
+
+        <section class="category">
+            <h2>Science Fiction</h2>
+            <ul>
+                <li><a href="books/dune.html">Dune by Frank Herbert</a></li>
+                <li><a href="books/neuromancer.html">Neuromancer by William Gibson</a></li>
+                <li><a href="books/the-left-hand-of-darkness.html">The Left Hand of Darkness by Ursula K. Le Guin</a></li>
+            </ul>
+        </section>
+
+        <hr class="separator">
+
+        <section class="category">
+            <h2>Fantasy</h2>
+            <ul>
+                <li><a href="books/the-hobbit.html">The Hobbit by J.R.R. Tolkien</a></li>
+                <li><a href="books/harry-potter.html">Harry Potter and the Sorcerer's Stone by J.K. Rowling</a></li>
+                <li><a href="books/a-game-of-thrones.html">A Game of Thrones by George R.R. Martin</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Library. All rights reserved.</p>
+    </footer>
+</body>
 </html>
