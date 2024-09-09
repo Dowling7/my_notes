@@ -1,10 +1,34 @@
-.App {
-  text-align: center;
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
 }
 
+/* Main App Styling */
+.App {
+  text-align: center;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +37,9 @@
   }
 }
 
+/* Header Styling */
 .App-header {
-  background-color: #282c34;
+  background-color: #0077cc;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,17 +47,39 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
 }
 
+/* Link Styling */
 .App-link {
-  color: #61dafb;
+  color: #0077cc;
+  text-decoration: none;
 }
 
+.App-link:hover {
+  text-decoration: underline;
+}
+
+/* Keyframes for Animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(8px + 2vmin);
+    padding: 15px;
+  }
+  .App {
+    padding: 15px;
+  }
+  .App-logo {
+    height: 30vmin;
   }
 }

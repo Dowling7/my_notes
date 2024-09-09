@@ -5,17 +5,16 @@ import Layout from "./Layout";
 import Algorithm from "./sections/Algorithm";
 import Physics from "./sections/Physics";
 import MachineLearning from "./sections/MachineLearning";
-import Coding from "./sections/Coding"
-import Reference from "./sections/Reference"
-import Research from "./sections/Research"
+import Coding from "./sections/Coding";
+import Reference from "./sections/Reference";
+import Research from "./sections/Research";
 
-import GradientDescent from "./subsections/Algorithm/GradientDescent"
-import MonteCarlo from "./subsections/Algorithm/MonteCarlo"
-import PID from "./subsections/Algorithm/PID"
+import GradientDescent from "./subsections/Algorithm/GradientDescent";
+import MonteCarlo from "./subsections/Algorithm/MonteCarlo";
+import PID from "./subsections/Algorithm/PID";
 
-import DAQ from "./subsections/MachineLearning/DAQ"
-import VectorDatabase from "./subsections/MachineLearning/VectorDatabase"
-
+import DAQ from "./subsections/MachineLearning/DAQ";
+import VectorDatabase from "./subsections/MachineLearning/VectorDatabase";
 
 function App() {
   return (
@@ -36,8 +35,24 @@ function App() {
           <Route path="/DAQ" element={<DAQ />} />
           <Route path="/VectorDatabase" element={<VectorDatabase />} />
 
-
-          <Route path="/" element={<div>Welcome to the Academic Notes</div>} />
+          {/* Link to the HTML file in the public directory */}
+          <Route
+            path="/"
+            element={
+              <div>
+                Welcome to the Academic Notes
+                <br />
+                <a href="ref/index.html" target="_blank" rel="noopener noreferrer">
+                  Redirect to Dowling's library of books and papers
+                </a>
+                <br />
+                <a href="py501/index.html" target="_blank" rel="noopener noreferrer">
+                  Redirect to mirror of py501 mathematical physics
+                </a>
+              </div>
+              
+            }
+          />
         </Routes>
       </Layout>
     </Router>
