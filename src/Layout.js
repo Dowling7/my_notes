@@ -13,8 +13,7 @@ const Layout = ({ children }) => {
         <nav style={{ paddingBottom: "10px", borderBottom: "2px solid black" }}> {/* Added bottom border */}
           <Link to="/" style={{ marginRight: "10px" }}>Home</Link>
           <Link to="/research" style={{ marginRight: "10px" }}>Research</Link>
-          <Link to="/algorithm" style={{ marginRight: "10px" }}>Algorithm</Link>
-          <Link to="/physics" style={{ marginRight: "10px" }}>Physics</Link>
+          <Link to="/robotics" style={{ marginRight: "10px" }}>Robotics</Link>
           <Link to="/machine-learning"style={{ marginRight: "10px" }}>Data Science and ML</Link>  
           <Link to="/Coding"style={{ marginRight: "10px" }}>Coding Techniques</Link>
           <Link to="/Reference"style={{ marginRight: "10px" }}>Reference</Link>
