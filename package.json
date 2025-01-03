@@ -4,26 +4,20 @@
   "private": true,
   "homepage": "https://dowling7.github.io/my_notes",
   "dependencies": {
-    "@react-pdf-viewer/core": "^3.12.0",
-    "@react-pdf-viewer/default-layout": "^3.12.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gray-matter": "^4.0.3",
-    "katex": "^0.16.10",
-    "marked": "^15.0.4",
-    "prismjs": "^1.29.0",
+    "better-react-mathjax": "^2.0.4-beta1",
+    "katex": "0.16.19",
+    "marked": "15.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-katex": "^3.0.1",
     "react-markdown": "^9.0.1",
-    "react-pdf-viewer": "^0.1.0",
-    "react-router-dom": "^6.23.1",
+    "react-router-dom": "6.28.1",
     "react-scripts": "^5.0.1",
-    "react-syntax-highlighter": "^15.5.0",
-    "remark-toc": "^9.0.0",
+    "react-syntax-highlighter": "15.6.1",
     "typescript": "^5.7.2",
-    "web-vitals": "^4.2.3",
+    "web-vitals": "4.2.4",
     "webpack": "^5.97.1"
   },
   "scripts": {
@@ -53,9 +47,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
-    "depcheck": "^1.4.7",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "6.3.0"
   }
 }

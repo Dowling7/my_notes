@@ -1,5 +1,7 @@
 import React from "react";
-import Layout, { InlineMath, BlockMath, SyntaxHighlighter } from "../Layout";
+import Layout, {SyntaxHighlighter } from "../Layout";
+import { MathJax } from 'better-react-mathjax';
+
 import { Link } from "react-router-dom";
 
 function Coding() {
@@ -16,8 +18,9 @@ function Coding() {
       <p>
         This setup allows the asynchronous code to run independently of the main program's flow, enabling tasks to be handled in the background without interruption. It's an effective strategy for integrating asynchronous programming patterns into applications that are not inherently asynchronous, thereby improving performance and responsiveness.
       </p>
+      <MathJax>{"\\[E = mc^2\\]"}</MathJax> // Block Math
+      <MathJax>{"\\(a^2 + b^2 = c^2\\)"}</MathJax> // Inline Math
 
-      <BlockMath math="f(x) = x^{2} + 2x + 1" />
       <SyntaxHighlighter language="python">
       {`
       import asyncio
