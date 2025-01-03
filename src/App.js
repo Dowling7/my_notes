@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Layout>
-        <Routes>
+        <Routes >
           {/* Static sections */}
           <Route path="/research" element={<Research />} />
           <Route path="/machine-learning" element={<MachineLearning />} />
