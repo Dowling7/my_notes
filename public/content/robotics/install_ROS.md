@@ -164,6 +164,10 @@ Set up your environment by sourcing the following file:
 source /opt/ros/jazzy/setup.bash
 ```
 
+echo $ROS_DISTRO
+
+
+
 #### Try Some Examples
 
 1. Open one terminal, source the setup file, and run a C++ talker:
@@ -181,6 +185,31 @@ source /opt/ros/jazzy/setup.bash
    ```
 
 You should see the talker publishing messages and the listener responding with received messages. This verifies both the C++ and Python APIs are functioning correctly.
-```
+You can open gazebo simulation by: 
 
-Let me know if you need further adjustments!
+gz sim
+
+
+pip3 install lark-parser
+pip install catkin_pkg
+pip install empy  
+pip3 install scikit-build
+pip3 install opencv-python
+
+remember to turn off conda before running, said they are not get on well, but so far not problem. May have wrong path projection problems.
+This package making requirement is outdated, remember to edit the <depend>gazebo_ros<depend> to <depend>ros_gz_sim<depend>
+and clear the log files with:
+
+
+
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+git clone https://github.com/comprobo24/neato_packages.git
+cd ~/ros2_ws
+colcon build --symlink-install
+source ~/ros2_ws/install/setup.bash
+
+
+Edit your ~/.bashrc file so that your workspace is correctly loaded whenever you start a new terminal (note: if you are using a different shell, you may have to adjust this).
+
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
